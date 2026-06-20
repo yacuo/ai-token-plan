@@ -15,6 +15,8 @@ tags: "DeepSeek,Token Plan,Coding Plan,价格对比,额度,官网入口"
 
 DeepSeek 提供面向开发者的大模型 API，适合关注国产模型、低成本调用和推理模型能力的用户。
 
+数据来源：[TokenPlan 详情](https://tokenplan.vip/deepseek-token-api)
+
 ## 价格
 
 - 计费方式：按量计费

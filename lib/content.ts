@@ -90,6 +90,13 @@ function markdownToHtml(markdown: string) {
       continue;
     }
 
+    if (trimmed.startsWith("数据来源：")) {
+      if (listOpen) { html.push("</ul>"); listOpen = false; }
+      html.push(`<div class="source-card">${inlineMarkdown(trimmed)}</div>`);
+      index += 1;
+      continue;
+    }
+
     if (trimmed.startsWith("## ")) {
       if (listOpen) { html.push("</ul>"); listOpen = false; }
       const text = trimmed.slice(3);

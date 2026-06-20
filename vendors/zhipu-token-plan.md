@@ -15,6 +15,8 @@ tags: "Zhipu GLM,Token Plan,Coding Plan,价格对比,额度,官网入口"
 
 GLM 是智谱提供的大模型系列，覆盖 AI 助手、Token Plan、API 和开发者平台能力。
 
+数据来源：[TokenPlan 详情](https://tokenplan.vip/zhipu-token-plan)
+
 ## 价格
 
 - 入门价格：¥49/月
