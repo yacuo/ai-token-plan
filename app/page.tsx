@@ -37,13 +37,22 @@ export default function Home() {
             {site.heroTags.map((tag) => <span key={tag} className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 shadow-sm">{tag}</span>)}
           </div>
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-            <a className="rounded-xl bg-slate-950 px-5 py-3 text-center font-bold text-white shadow-lg shadow-slate-300 transition hover:-translate-y-0.5" href="#plans">浏览文章目录</a>
+            <a className="rounded-xl bg-slate-950 px-5 py-3 text-center font-bold text-white shadow-lg shadow-slate-300 transition hover:-translate-y-0.5" href="#guides">查看对比案例</a>
             <a className="inline-flex items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white px-5 py-3 font-bold text-slate-900 shadow-sm transition hover:-translate-y-0.5" href={site.githubUrl}><GithubIcon /> 查看仓库来源</a>
           </div>
         </div>
       </section>
 
-      <section id="plans" className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+      <section id="guides" className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+        <div className="mb-6 flex flex-col justify-between gap-3 md:flex-row md:items-end">
+          <div><h2 className="text-3xl font-black tracking-tight sm:text-4xl">对比案例</h2><p className="mt-2 max-w-2xl text-slate-600">先看高意图搜索场景：价格、额度、免费额度、官网入口和申请入口怎么选。</p></div>
+        </div>
+        <div className="grid gap-4 md:grid-cols-3">
+          {site.guides.map((guide, index) => <a key={guide.url} className="group rounded-xl border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-1 hover:border-slate-300 hover:shadow-xl" href={guide.url}><span className="rounded-full bg-slate-950 px-2.5 py-1 text-xs font-black text-white">案例 {index + 1}</span><h3 className="mt-4 text-xl font-black tracking-tight text-slate-950">{guide.name}</h3><p className="mt-3 text-sm leading-6 text-slate-600">围绕真实选型问题整理对比维度、适用场景和入口索引。</p><span className="mt-5 inline-flex font-bold text-slate-950 group-hover:underline">查看案例 →</span></a>)}
+        </div>
+      </section>
+
+      <section id="plans" className="mx-auto max-w-7xl px-4 pb-16 pt-6 sm:px-6 lg:px-8">
         <div className="mb-6 flex flex-col justify-between gap-3 md:flex-row md:items-end">
           <div><h2 className="text-3xl font-black tracking-tight sm:text-4xl">快速对比</h2><p className="mt-2 max-w-2xl text-slate-600">点击卡片进入由仓库 Markdown 生成的站内文章页。</p></div>
         </div>
@@ -56,16 +65,6 @@ export default function Home() {
               <a className="mt-5 inline-flex rounded-xl bg-slate-950 px-4 py-2.5 text-sm font-bold text-white transition group-hover:bg-slate-800" href={item.url}>阅读文章 →</a>
             </article>
           ))}
-        </div>
-      </section>
-
-      <section id="guides" className="mx-auto max-w-7xl px-4 pb-16 sm:px-6 lg:px-8">
-        <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
-          <h2 className="text-3xl font-black tracking-tight">专题目录</h2>
-          <div className="mt-5 grid gap-3 md:grid-cols-3">
-            {site.guides.map((guide) => <a key={guide.url} className="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 font-bold transition hover:border-slate-300 hover:bg-white hover:shadow-sm" href={guide.url}>{guide.name}</a>)}
-          </div>
-          <p className="mt-6 rounded-2xl border border-dashed border-slate-300 bg-slate-50 p-4 text-sm leading-6 text-slate-600">本页面是仓库的 GitHub Pages 简易站。内容由仓库 Markdown 生成，适合快速浏览、收藏和 Fork。</p>
         </div>
       </section>
       <SiteFooter />
