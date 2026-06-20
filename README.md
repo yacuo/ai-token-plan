@@ -1,6 +1,6 @@
-# Token Plan、AI API 价格对比 ｜ AI 订阅与大模型 API 价格目录
+# Token Plan、AI API、Coding Plan 价格对比 ｜ AI 订阅与大模型 API 价格目录
 
-面向中国用户整理的 AI Token Plan、Token Plan 价格、AI 订阅价格、大模型 API 价格、LLM API Pricing、API Key 申请入口、免费额度与模型套餐目录。
+面向中国用户整理的 AI Token Plan、Coding Plan 价格、AI 订阅价格、大模型 API 价格、LLM API Pricing、API Key 申请入口、免费额度与模型套餐目录。
 
 如果你正在比较智谱 GLM、通义千问 Qwen、Kimi、豆包 Doubao、MiniMax、DeepSeek、Claude、Gemini、OpenRouter 等 Token Plan 与 API 价格，这个仓库用 GitHub README 做一份精简版对比：看入门价格、套餐类型、主要模型、Token 成本、免费额度、额度重置、API Key 申请和 TokenPlan 详情页。
 
