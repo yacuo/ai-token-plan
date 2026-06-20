@@ -5,6 +5,7 @@ export type TocItem = { id: string; text: string; level: 1 | 2 };
 export type Article = {
   slug: string[];
   href: string;
+  sourcePath: string;
   title: string;
   description: string;
   keywords: string;
@@ -141,8 +142,9 @@ export function getArticles(): Article[] {
       const description = data.description || stripMarkdown(body).slice(0, 150);
       const keywords = data.keywords || "Token Plan,AI Token Plan,AI API 价格,大模型 API 价格";
       const tags = (data.tags || "").split(",").map((tag) => tag.trim()).filter(Boolean);
-      const slug = [dir, file.replace(/\.md$/, "")];
-      return { slug, href: `/${slug.join("/")}/`, title: data.title || fallbackTitle, description, keywords, tags, toc: getToc(body), body: markdownToHtml(body) };
+      const name = file.replace(/\.md$/, "");
+      const slug = [name];
+      return { slug, href: `/${name}/`, sourcePath: `${dir}/${file}`, title: data.title || fallbackTitle, description, keywords, tags, toc: getToc(body), body: markdownToHtml(body) };
     });
   });
 }

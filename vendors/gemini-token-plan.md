@@ -5,7 +5,7 @@ keywords: "Gemini API 价格,Google AI Pro,Gemini Pro,Gemini Flash,长上下文�
 tags: "Gemini,API 价格,Google AI,长上下文"
 ---
 
-# Gemini
+# Gemini Token Plan
 
 Gemini 是 Google 提供的模型和 AI 订阅体系，覆盖 Gemini 应用、Google AI Pro 和 Gemini API。
 

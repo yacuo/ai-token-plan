@@ -40,8 +40,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   const detailUrl = getDetailUrl(article.href);
   const prev = index > 0 ? articles[index - 1] : undefined;
   const next = index < articles.length - 1 ? articles[index + 1] : undefined;
-  const categoryLabel = article.slug[0] === "vendors" ? "厂商文章" : "专题文章";
-  const editUrl = `${site.githubUrl}/edit/main/${article.slug.join("/")}.md`;
+  const categoryLabel = article.sourcePath.startsWith("vendors/") ? "厂商文章" : "专题文章";
+  const editUrl = `${site.githubUrl}/edit/main/${article.sourcePath}`;
 
   return (
     <main className="min-h-screen bg-[radial-gradient(circle_at_top_left,#dbeafe,transparent_30%),linear-gradient(180deg,#f8fafc_0%,#fff_42%,#f8fafc_100%)] text-slate-950">

@@ -5,7 +5,7 @@ keywords: "OpenRouter API 价格,OpenRouter API,OpenAI 兼容接口,多模型 AP
 tags: "OpenRouter,API 聚合,API 价格,多模型"
 ---
 
-# OpenRouter
+# OpenRouter Token API
 
 OpenRouter 是多模型 API 聚合平台，提供 OpenAI 兼容接口，可以通过一个 API Key 调用多家模型。
 

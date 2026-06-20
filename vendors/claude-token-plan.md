@@ -5,7 +5,7 @@ keywords: "Claude Token Plan,Claude API 价格,Claude Opus,Claude Sonnet,Claude 
 tags: "Claude,Token Plan,API 价格,Claude Code"
 ---
 
-# Claude
+# Claude Token Plan
 
 Claude 是 Anthropic 提供的 AI 助手和模型 API，覆盖 Claude 订阅、Claude Code 和 Anthropic Console API。
 

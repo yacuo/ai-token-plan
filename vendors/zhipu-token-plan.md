@@ -5,7 +5,7 @@ keywords: "GLM API 价格,智谱大模型,GLM Token Plan,国产模型 API,编程
 tags: "GLM,智谱,Token Plan,API 价格"
 ---
 
-# GLM
+# Zhipu GLM Token Plan
 
 GLM 是智谱提供的大模型系列，覆盖 AI 助手、Token Plan、API 和开发者平台能力。
 
