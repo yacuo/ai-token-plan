@@ -24,17 +24,6 @@
 | [Doubao](vendors/doubao.md) | API | 按量计费 | Doubao 系列 | 火山方舟、国产模型 API |
 | [GLM](vendors/glm.md) | Token Plan / API | ¥49/月 | GLM 系列 | 智谱模型生态 |
 
-## 厂商目录
-
-- [Claude](vendors/claude.md)
-- [OpenRouter](vendors/openrouter.md)
-- [DeepSeek](vendors/deepseek.md)
-- [Kimi](vendors/kimi.md)
-- [Qwen](vendors/qwen.md)
-- [MiniMax](vendors/minimax.md)
-- [Gemini](vendors/gemini.md)
-- [Doubao](vendors/doubao.md)
-- [GLM](vendors/glm.md)
 
 ## 专题目录
 
@@ -42,7 +31,7 @@
 - [AI Token Plan 套餐价格目录](guides/token-plan-pricing.md)：整理 Claude Token Plan、Kimi Token Plan、MiniMax Token Plan、Gemini 订阅、GLM Token Plan 等 AI Token Plan 套餐价格方向。
 - [免费额度目录](guides/free-tiers.md)：整理大模型 API 免费额度、AI API 免费额度、Token Plan 免费档、开发者控制台试用额度等低成本入口方向。
 
-## 热门长尾关键词
+## 常见查询场景
 
 这个仓库重点覆盖这些搜索需求：AI Token Plan、Token Plan 价格、Token Plan 对比、AI API 价格、LLM API Pricing、大模型 API 价格、模型 API 价格对比、API Key 申请、Claude API 价格、OpenAI API 价格、Gemini API 价格、DeepSeek API 价格、Kimi API 价格、Qwen API 价格、Doubao API 价格、GLM API 价格、MiniMax Token Plan、OpenRouter API 价格。
 
