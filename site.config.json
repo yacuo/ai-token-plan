@@ -1,0 +1,31 @@
+{
+  "title": "Token Plan、AI API 价格对比",
+  "subtitle": "AI 订阅与大模型 API 价格目录",
+  "description": "面向中国用户整理 AI Token Plan、Token Plan 价格、AI 订阅价格、大模型 API 价格、LLM API Pricing、API Key 申请入口、免费额度与模型套餐。",
+  "keywords": "Token Plan,AI Token Plan,Token Plan 价格,Token Plan 对比,AI API 价格,大模型 API 价格,LLM API Pricing,API Key 申请,免费额度,模型套餐,Claude API 价格,DeepSeek API 价格,Kimi API 价格,Qwen API 价格,OpenRouter API 价格",
+  "brand": "AI Token Plan Lite",
+  "primaryUrl": "https://tokenplan.vip/",
+  "githubUrl": "https://github.com/yacuo/ai-token-plan",
+  "heroTags": ["Token Plan", "AI API 价格", "大模型 API", "免费额度", "API Key"],
+  "sections": [
+    {
+      "title": "快速对比",
+      "items": [
+        { "name": "Claude", "price": "$20/月", "type": "订阅 / API", "summary": "Claude Opus / Sonnet / Haiku，适合关注 Claude API 价格与 Claude Token Plan。", "url": "/vendors/claude/", "detailUrl": "https://tokenplan.vip/claude-token-plan" },
+        { "name": "OpenRouter", "price": "按量计费", "type": "API 聚合", "summary": "340+ 模型，OpenAI 兼容，适合多模型 API 统一入口。", "url": "/vendors/openrouter/", "detailUrl": "https://tokenplan.vip/openrouter-token-api" },
+        { "name": "DeepSeek", "price": "按量计费", "type": "API", "summary": "DeepSeek V3 / R1，适合低成本国产大模型 API 调用。", "url": "/vendors/deepseek/", "detailUrl": "https://tokenplan.vip/deepseek-token-api" },
+        { "name": "Kimi", "price": "¥49/月", "type": "Token Plan / API", "summary": "Kimi K2.7 Code / K2.6，适合会员套餐、Agent 与编程场景。", "url": "/vendors/kimi/", "detailUrl": "https://tokenplan.vip/kimi-token-plan" },
+        { "name": "Qwen", "price": "按量计费", "type": "API", "summary": "通义千问 Qwen 系列，适合阿里云百炼与国产模型 API。", "url": "/vendors/qwen/", "detailUrl": "https://tokenplan.vip/qianwen-token-api" },
+        { "name": "MiniMax", "price": "¥49/月", "type": "Token Plan / API", "summary": "MiniMax-M3 / M2.7，适合积分制套餐、多模态和 Agent 调用。", "url": "/vendors/minimax/", "detailUrl": "https://tokenplan.vip/minimax-token-plan" },
+        { "name": "Gemini", "price": "$19.99/月", "type": "订阅 / API", "summary": "Gemini Pro / Flash，适合 Google 生态、长上下文和多模态。", "url": "/vendors/gemini/", "detailUrl": "https://tokenplan.vip/gemini-token-plan" },
+        { "name": "Doubao", "price": "按量计费", "type": "API", "summary": "豆包大模型，适合火山方舟、国产模型 API 和应用接入。", "url": "/vendors/doubao/", "detailUrl": "https://tokenplan.vip/doubao-token-api" },
+        { "name": "GLM", "price": "¥49/月", "type": "Token Plan / API", "summary": "智谱 GLM 系列，适合国产模型 API、编程和多模态场景。", "url": "/vendors/glm/", "detailUrl": "https://tokenplan.vip/zhipu-token-plan" }
+      ]
+    }
+  ],
+  "guides": [
+    { "name": "LLM API 价格目录", "url": "/guides/api-pricing/" },
+    { "name": "AI Token Plan 套餐价格目录", "url": "/guides/token-plan-pricing/" },
+    { "name": "免费额度目录", "url": "/guides/free-tiers/" }
+  ]
+}

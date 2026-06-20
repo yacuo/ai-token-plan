@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root { --background: #f8fafc; --foreground: #111827; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--background); color: var(--foreground); font-family: Arial, Helvetica, sans-serif; }
+::selection { background: #cbd5e1; color: #0f172a; }
+.prose h1 { font-size: 2rem; font-weight: 900; letter-spacing: -0.04em; margin: 2rem 0 1rem; }
+.prose h2 { font-size: 1.5rem; font-weight: 900; letter-spacing: -0.03em; margin: 2.25rem 0 0.9rem; padding-top: 1rem; border-top: 1px solid #e2e8f0; }
+.prose p { color: #475569; line-height: 1.9; margin: 0.9rem 0; }
+.prose ul { padding-left: 1.2rem; margin: 0.9rem 0; color: #475569; }
+.prose li { margin: 0.45rem 0; line-height: 1.75; }
+.prose a { color: #0f172a; font-weight: 800; text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 2px; }
+.prose a:hover { color: #2563eb; }
+.prose code { background: #f1f5f9; border: 1px solid #e2e8f0; border-radius: 0.45rem; padding: 0.12rem 0.35rem; }
+.prose .table-wrap { width: 100%; overflow-x: auto; margin: 1.25rem 0; border: 1px solid #e2e8f0; border-radius: 1rem; }
+.prose table { width: 100%; min-width: 640px; border-collapse: collapse; background: #fff; }
+.prose th { background: #f8fafc; color: #0f172a; font-weight: 900; text-align: left; }
+.prose th, .prose td { border-bottom: 1px solid #e2e8f0; padding: 0.85rem 1rem; color: #475569; vertical-align: top; }
+.prose tr:last-child td { border-bottom: 0; }
