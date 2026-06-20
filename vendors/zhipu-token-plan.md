@@ -1,11 +1,15 @@
 ---
-title: "GLM 智谱 API 与 Token Plan 价格目录"
-description: "GLM API 价格、智谱大模型、GLM Token Plan、国产模型 API、编程模型和多模态模型摘要。"
-keywords: "GLM API 价格,智谱大模型,GLM Token Plan,国产模型 API,编程模型,多模态模型,AI Token Plan"
-tags: "GLM,智谱,Token Plan,API 价格"
+title: "Zhipu GLM Token Plan 优惠、价格对比 ｜ Coding Plan 官网入口 - TokenPlan"
+description: "Zhipu GLM Token Plan、Coding Plan 综合对比，覆盖价格、额度、额度重置、免费额度、优惠和官网入口，适合比较 Zhipu GLM 怎么样、值不值得，以及 Claude Code 平替、Cursor 接入等使用场景。"
+keywords: "Token Plan,Coding Plan,Zhipu GLM,Zhipu GLM 价格,Zhipu GLM 对比,Zhipu GLM 优惠,Claude Code 平替,Zhipu GLM 怎么样,额度,额度重置,免费额度,官网入口,Claude Code,Cursor,Codex"
+tags: "Zhipu GLM,Token Plan,Coding Plan,价格对比,额度,官网入口"
 ---
 
-# Zhipu GLM Token Plan
+# Zhipu GLM Token Plan 优惠、价格对比 ｜ Coding Plan 官网入口 - TokenPlan
+
+## 综合对比重点
+
+本页不是单纯列价格，而是围绕 Token Plan、Coding Plan、价格对比、额度、额度重置、免费额度、优惠、官网入口、申请入口、Claude Code 平替和 Cursor 接入等搜索场景做综合整理。
 
 GLM 是智谱提供的大模型系列，覆盖 AI 助手、Token Plan、API 和开发者平台能力。
 

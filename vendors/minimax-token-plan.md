@@ -1,11 +1,15 @@
 ---
-title: "MiniMax Token Plan 与 MiniMax API 价格目录"
-description: "MiniMax Token Plan、MiniMax API 价格、MiniMax-M3、MiniMax-M2.7、积分制套餐、多模态模型和 Agent 调用摘要。"
-keywords: "MiniMax Token Plan,MiniMax API 价格,MiniMax-M3,MiniMax-M2.7,积分制套餐,多模态模型,Agent 调用,AI Token Plan"
-tags: "MiniMax,Token Plan,API 价格,多模态"
+title: "MiniMax Token Plan 优惠、价格对比 ｜ Coding Plan 官网入口 - TokenPlan"
+description: "MiniMax Token Plan、Coding Plan 综合对比，覆盖价格、额度、额度重置、免费额度、优惠和官网入口，适合比较 MiniMax 怎么样、值不值得，以及 Claude Code 平替、Cursor 接入等使用场景。"
+keywords: "Token Plan,Coding Plan,MiniMax,MiniMax 价格,MiniMax 对比,MiniMax 优惠,Claude Code 平替,MiniMax 怎么样,额度,额度重置,免费额度,官网入口,Claude Code,Cursor,Codex"
+tags: "MiniMax,Token Plan,Coding Plan,价格对比,额度,官网入口"
 ---
 
-# MiniMax Token Plan
+# MiniMax Token Plan 优惠、价格对比 ｜ Coding Plan 官网入口 - TokenPlan
+
+## 综合对比重点
+
+本页不是单纯列价格，而是围绕 Token Plan、Coding Plan、价格对比、额度、额度重置、免费额度、优惠、官网入口、申请入口、Claude Code 平替和 Cursor 接入等搜索场景做综合整理。
 
 MiniMax 提供 Token Plan、API 和多模态模型能力，覆盖文本、编程、语音、图像、音乐等场景。
 

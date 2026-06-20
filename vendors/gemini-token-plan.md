@@ -1,11 +1,15 @@
 ---
-title: "Gemini API 价格与 Gemini 订阅目录"
-description: "Gemini API 价格、Google AI Pro、Gemini Pro、Gemini Flash、长上下文模型、多模态模型和 Google AI Studio 摘要。"
-keywords: "Gemini API 价格,Google AI Pro,Gemini Pro,Gemini Flash,长上下文模型,多模态模型,Google AI Studio,AI API 价格"
-tags: "Gemini,API 价格,Google AI,长上下文"
+title: "Gemini Token Plan 优惠、价格对比 ｜ Coding Plan 官网入口 - TokenPlan"
+description: "Gemini Token Plan、Coding Plan 综合对比，覆盖价格、额度、额度重置、免费额度、优惠和官网入口，适合比较 Gemini 怎么样、值不值得，以及 Claude Code 平替、Cursor 接入等使用场景。"
+keywords: "Token Plan,Coding Plan,Gemini,Gemini 价格,Gemini 对比,Gemini 优惠,Claude Code 平替,Gemini 怎么样,额度,额度重置,免费额度,官网入口,Claude Code,Cursor,Codex"
+tags: "Gemini,Token Plan,Coding Plan,价格对比,额度,官网入口"
 ---
 
-# Gemini Token Plan
+# Gemini Token Plan 优惠、价格对比 ｜ Coding Plan 官网入口 - TokenPlan
+
+## 综合对比重点
+
+本页不是单纯列价格，而是围绕 Token Plan、Coding Plan、价格对比、额度、额度重置、免费额度、优惠、官网入口、申请入口、Claude Code 平替和 Cursor 接入等搜索场景做综合整理。
 
 Gemini 是 Google 提供的模型和 AI 订阅体系，覆盖 Gemini 应用、Google AI Pro 和 Gemini API。
 
