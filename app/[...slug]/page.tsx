@@ -51,6 +51,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           <Link href="/" className="flex items-center gap-3 font-black tracking-tight"><span className="grid h-9 w-9 place-items-center rounded-xl bg-slate-950 text-sm text-white">TP</span>{site.brand}</Link>
           <div className="flex flex-wrap items-center gap-2 text-sm font-semibold text-slate-600">
             <Link className="rounded-full px-3 py-2 hover:bg-slate-100" href="/">首页</Link>
+            <a className="rounded-full px-3 py-2 hover:bg-slate-100" href="https://codingplan.pw/">Coding Plan</a>
             <a className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-3 py-2 text-slate-900 shadow-sm" href={site.githubUrl}><GithubIcon /> GitHub</a>
           </div>
         </nav>

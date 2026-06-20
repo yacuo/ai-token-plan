@@ -22,6 +22,7 @@ export default function Home() {
           <div className="flex flex-wrap items-center gap-2 text-sm font-semibold text-slate-600">
             <a className="rounded-full px-3 py-2 hover:bg-slate-100" href="#plans">目录</a>
             <a className="rounded-full px-3 py-2 hover:bg-slate-100" href="#guides">专题</a>
+            <a className="rounded-full px-3 py-2 hover:bg-slate-100" href="https://codingplan.pw/">Coding Plan</a>
             <a className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-3 py-2 text-slate-900 shadow-sm" href={site.githubUrl}><GithubIcon /> GitHub</a>
           </div>
         </nav>
