@@ -25,7 +25,7 @@
 | [GLM](vendors/zhipu-token-plan.md) | Token Plan / API | ¥49/月起 | GLM | 智谱生态 |
 
 
-## 专题目录
+## 对比案例
 
 - [LLM API 价格目录](guides/llm-api-pricing.md)：整理 OpenAI API 价格、Claude API 价格、Gemini API 价格、DeepSeek API 价格、Qwen API 价格、Doubao API 价格、GLM API 价格等常见大模型 API 价格方向。
 - [AI Token Plan 套餐价格目录](guides/ai-token-plan-pricing.md)：整理 Claude Token Plan、Kimi Token Plan、MiniMax Token Plan、Gemini 订阅、GLM Token Plan 等 AI Token Plan 套餐价格方向。
