@@ -23,9 +23,9 @@ MiniMax 提供 Token Plan、API 和多模态模型能力，覆盖文本、编程
 
 ## 主要模型
 
-- MiniMax-M3
-- MiniMax-M2.7
-- MiniMax-M2.7-highspeed
+- MiniMax-M3（Token Plan ¥49/月起；积分 1000=¥7）
+- MiniMax-M2.7（Token Plan ¥49/月起；积分 1000=¥7）
+- MiniMax-M2.7（Token Plan ¥49/月起；积分 1000=¥7）-highspeed
 - Speech / Image / Music 多模态模型
 
 ## 关注点

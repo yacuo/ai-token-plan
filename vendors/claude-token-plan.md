@@ -23,9 +23,9 @@ Claude 是 Anthropic 提供的 AI 助手和模型 API，覆盖 Claude 订阅、C
 
 ## 主要模型
 
-- Claude Opus
-- Claude Sonnet
-- Claude Haiku
+- Claude Opus（API $5/$25/百万 tokens；订阅 $20/月起）
+- Claude Sonnet（API $1/$5/百万 tokens；订阅 $20/月起）
+- Claude Haiku（API $0.25/$1.25/百万 tokens；订阅 $20/月起）
 
 ## 关注点
 

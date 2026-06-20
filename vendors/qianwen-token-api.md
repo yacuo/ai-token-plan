@@ -22,9 +22,9 @@ Qwen / 通义千问是阿里云提供的大模型系列，覆盖 API、控制台
 
 ## 主要模型
 
-- Qwen 系列
-- Qwen Coder 系列
-- Qwen 多模态模型
+- Qwen 系列（¥0.3/¥0.6/百万 tokens 起）
+- Qwen Coder 系列（¥0.3/¥0.6/百万 tokens 起）
+- Qwen 多模态模型（¥0.3/¥0.6/百万 tokens 起，多模态按模型单价计费）
 
 ## API 入口
 

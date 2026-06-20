@@ -14,15 +14,15 @@
 
 | 平台 | 类型 | 价格 | 模型 | 关注点 |
 |---|---|---:|---|---|
-| [Claude](vendors/claude-token-plan.md) | 订阅 / API | $20/月；API 按百万 tokens | Claude | Claude Code、官方生态 |
-| [OpenRouter](vendors/openrouter-token-api.md) | API 聚合 | 按模型单价 / 百万 tokens | 多模型 | OpenAI 兼容、统一入口 |
-| [DeepSeek](vendors/deepseek-token-api.md) | API | 按百万 tokens 计价 | DeepSeek | 低成本、推理 |
-| [Kimi](vendors/kimi-token-plan.md) | Token Plan / API | ¥49/月 | Kimi | 国产套餐、Agent |
-| [Qwen](vendors/qianwen-token-api.md) | API | 按百万 tokens 计价 | Qwen | 阿里云百炼 |
-| [MiniMax](vendors/minimax-token-plan.md) | Token Plan / API | ¥49/月 | MiniMax | 积分制、多模态 |
-| [Gemini](vendors/gemini-token-plan.md) | 订阅 / API | $19.99/月；API 按百万 tokens | Gemini | Google 生态 |
-| [Doubao](vendors/doubao-token-api.md) | API | 按百万 tokens 计价 | Doubao | 火山方舟 |
-| [GLM](vendors/zhipu-token-plan.md) | Token Plan / API | ¥49/月 | GLM | 智谱生态 |
+| [Claude](vendors/claude-token-plan.md) | 订阅 / API | $20/月；API $1/$5/百万 tokens 起 | Claude | Claude Code、官方生态 |
+| [OpenRouter](vendors/openrouter-token-api.md) | API 聚合 | $0.15/$0.60/百万 tokens 参考 | 多模型 | OpenAI 兼容、统一入口 |
+| [DeepSeek](vendors/deepseek-token-api.md) | API | ¥1/¥2/百万 tokens 起 | DeepSeek | 低成本、推理 |
+| [Kimi](vendors/kimi-token-plan.md) | Token Plan / API | ¥49/月起 | Kimi | 国产套餐、Agent |
+| [Qwen](vendors/qianwen-token-api.md) | API | ¥0.3/¥0.6/百万 tokens 起 | Qwen | 阿里云百炼 |
+| [MiniMax](vendors/minimax-token-plan.md) | Token Plan / API | ¥49/月起；积分 1000=¥7 | MiniMax | 积分制、多模态 |
+| [Gemini](vendors/gemini-token-plan.md) | 订阅 / API | $4.99/月起 | Gemini | Google 生态 |
+| [Doubao](vendors/doubao-token-api.md) | API | ¥0.2/¥2/百万 tokens 起 | Doubao | 火山方舟 |
+| [GLM](vendors/zhipu-token-plan.md) | Token Plan / API | ¥49/月起 | GLM | 智谱生态 |
 
 
 ## 专题目录

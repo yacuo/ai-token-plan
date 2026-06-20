@@ -23,9 +23,9 @@ Kimi 是月之暗面提供的 AI 助手、Agent、编程和模型能力，覆盖
 
 ## 主要模型
 
-- Kimi K2.7 Code
-- Kimi K2.6
-- Kimi K2.5
+- Kimi K2.7 Code（Kimi 会员 ¥49/月起）
+- Kimi K2.6（Kimi 会员 ¥49/月起）
+- Kimi K2.5（Kimi 会员 ¥49/月起）
 
 ## 关注点
 

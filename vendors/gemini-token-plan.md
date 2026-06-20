@@ -22,9 +22,9 @@ Gemini 是 Google 提供的模型和 AI 订阅体系，覆盖 Gemini 应用、Go
 
 ## 主要模型
 
-- Gemini Pro
-- Gemini Flash
-- Gemini 多模态模型
+- Gemini Pro（订阅 $19.99/月；API 按百万 tokens 计价）
+- Gemini Flash（Google AI Plus $4.99/月起；API 按百万 tokens 计价）
+- Gemini 多模态模型（Google AI Plus $4.99/月起；API 按百万 tokens 计价）
 
 ## API 入口
 
