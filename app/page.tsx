@@ -1,4 +1,5 @@
 import site from "../site.config.json";
+import SiteFooter from "./SiteFooter";
 
 function GithubIcon() {
   return (
@@ -66,6 +67,7 @@ export default function Home() {
           <p className="mt-6 rounded-2xl border border-dashed border-slate-300 bg-slate-50 p-4 text-sm leading-6 text-slate-600">本页面是仓库的 GitHub Pages 简易站。内容由仓库 Markdown 生成，适合快速浏览、收藏和 Fork。</p>
         </div>
       </section>
+      <SiteFooter />
     </main>
   );
 }

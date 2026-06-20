@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import site from "../../site.config.json";
+import SiteFooter from "../SiteFooter";
 import { getArticle, getArticles } from "../../lib/content";
 
 type SiteItem = { name: string; url: string; detailUrl?: string };
@@ -99,6 +100,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           </div>
         </aside>
       </div>
+      <SiteFooter />
     </main>
   );
 }
