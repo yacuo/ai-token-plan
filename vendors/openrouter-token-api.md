@@ -15,7 +15,7 @@ tags: "OpenRouter,Token Plan,Coding Plan,价格对比,额度,官网入口"
 
 OpenRouter 是多模型 API 聚合平台，提供 OpenAI 兼容接口，可以通过一个 API Key 调用多家模型。
 
-数据来源：[TokenPlan 详情](https://tokenplan.vip/openrouter-token-api)
+数据来源：[TokenPlan 详情：https://tokenplan.vip/openrouter-token-api](https://tokenplan.vip/openrouter-token-api)
 
 ## 价格
 

@@ -36,7 +36,7 @@ case "$command" in
     kill_port "$port"
     npm install
     npm run build
-    npm run dev -- -p "$port"
+    npx next dev -p "$port"
     ;;
   deploy)
     npm install

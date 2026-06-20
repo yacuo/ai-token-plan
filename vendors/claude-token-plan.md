@@ -15,7 +15,7 @@ tags: "Claude,Token Plan,Coding Plan,价格对比,额度,官网入口"
 
 Claude 是 Anthropic 提供的 AI 助手和模型 API，覆盖 Claude 订阅、Claude Code 和 Anthropic Console API。
 
-数据来源：[TokenPlan 详情](https://tokenplan.vip/claude-token-plan)
+数据来源：[TokenPlan 详情：https://tokenplan.vip/claude-token-plan](https://tokenplan.vip/claude-token-plan)
 
 ## 价格
 

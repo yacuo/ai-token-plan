@@ -15,7 +15,7 @@ tags: "Kimi,Token Plan,Coding Plan,价格对比,额度,官网入口"
 
 Kimi 是月之暗面提供的 AI 助手、Agent、编程和模型能力，覆盖会员套餐与 API 使用场景。
 
-数据来源：[TokenPlan 详情](https://tokenplan.vip/kimi-token-plan)
+数据来源：[TokenPlan 详情：https://tokenplan.vip/kimi-token-plan](https://tokenplan.vip/kimi-token-plan)
 
 ## 价格
 

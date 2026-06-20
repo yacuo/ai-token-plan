@@ -11,7 +11,7 @@ tags: "Token Plan,AI 订阅,套餐价格,额度重置,优惠"
 
 这个专题整理适合个人、开发者和小团队关注的 AI Token Plan。重点不是只看月费，而是同时看模型能力、额度、额度重置、免费额度、优惠入口、官网入口和是否能用于 Claude Code / Cursor 等工具。
 
-数据来源：[TokenPlan 详情](https://tokenplan.vip/)
+数据来源：[TokenPlan 详情：https://tokenplan.vip/](https://tokenplan.vip/)
 
 ## 快速对比
 

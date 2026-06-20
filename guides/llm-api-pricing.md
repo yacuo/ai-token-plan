@@ -11,7 +11,7 @@ tags: "LLM API,API 价格,大模型 API,价格目录,API key 申请"
 
 这个专题不是单纯列价格，而是把常见大模型 API 的价格、额度、免费额度、申请入口、官网入口、模型覆盖、Claude Code / Cursor 接入可能性放在一起看。
 
-数据来源：[TokenPlan 详情](https://tokenplan.vip/)
+数据来源：[TokenPlan 详情：https://tokenplan.vip/](https://tokenplan.vip/)
 
 ## 快速对比
 

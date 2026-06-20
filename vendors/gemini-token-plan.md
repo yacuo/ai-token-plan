@@ -15,7 +15,7 @@ tags: "Gemini,Token Plan,Coding Plan,价格对比,额度,官网入口"
 
 Gemini 是 Google 提供的模型和 AI 订阅体系，覆盖 Gemini 应用、Google AI Pro 和 Gemini API。
 
-数据来源：[TokenPlan 详情](https://tokenplan.vip/gemini-token-plan)
+数据来源：[TokenPlan 详情：https://tokenplan.vip/gemini-token-plan](https://tokenplan.vip/gemini-token-plan)
 
 ## 价格
 

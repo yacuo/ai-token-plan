@@ -15,7 +15,7 @@ tags: "Doubao,Token Plan,Coding Plan,价格对比,额度,官网入口"
 
 Doubao / 豆包是字节跳动火山方舟生态中的模型系列，提供面向开发者的大模型 API。
 
-数据来源：[TokenPlan 详情](https://tokenplan.vip/doubao-token-api)
+数据来源：[TokenPlan 详情：https://tokenplan.vip/doubao-token-api](https://tokenplan.vip/doubao-token-api)
 
 ## 价格
 

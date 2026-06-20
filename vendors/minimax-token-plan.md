@@ -15,7 +15,7 @@ tags: "MiniMax,Token Plan,Coding Plan,价格对比,额度,官网入口"
 
 MiniMax 提供 Token Plan、API 和多模态模型能力，覆盖文本、编程、语音、图像、音乐等场景。
 
-数据来源：[TokenPlan 详情](https://tokenplan.vip/minimax-token-plan)
+数据来源：[TokenPlan 详情：https://tokenplan.vip/minimax-token-plan](https://tokenplan.vip/minimax-token-plan)
 
 ## 价格
 

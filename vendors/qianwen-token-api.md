@@ -15,7 +15,7 @@ tags: "Qwen,Token Plan,Coding Plan,价格对比,额度,官网入口"
 
 Qwen / 通义千问是阿里云提供的大模型系列，覆盖 API、控制台调用和多种模型能力。
 
-数据来源：[TokenPlan 详情](https://tokenplan.vip/qianwen-token-api)
+数据来源：[TokenPlan 详情：https://tokenplan.vip/qianwen-token-api](https://tokenplan.vip/qianwen-token-api)
 
 ## 价格
 
