@@ -61,7 +61,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           <div className="mt-6 flex flex-wrap gap-2">
             {article.tags.map((tag) => <span key={tag} className="rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs font-semibold text-slate-600">{tag}</span>)}
           </div>
-          <h1 className="mt-5 text-3xl font-black leading-tight tracking-[-0.045em] sm:text-5xl lg:text-6xl">{article.title}</h1>
+          <h1 className="mt-5 text-2xl font-black leading-tight tracking-[-0.035em] sm:text-4xl lg:text-4xl">{article.title}</h1>
           <p className="mt-5 text-base leading-8 text-slate-600 sm:text-lg">{article.description}</p>
           <section className="mt-6 rounded-xl border border-blue-100 bg-blue-50/70 p-5">
             <h2 className="text-lg font-black text-slate-950">综合对比重点</h2>

@@ -29,7 +29,7 @@ export default function Home() {
       <section className="mx-auto max-w-7xl px-4 pb-12 pt-8 sm:px-6 lg:px-8 lg:pb-16 lg:pt-12">
         <div className="rounded-xl border border-white/70 bg-white/75 p-6 shadow-xl shadow-slate-200/70 backdrop-blur sm:p-10 lg:p-12">
           <div className="mb-5 inline-flex rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-sm font-semibold text-slate-600">本项目由：压错技术团队提供，静态博客 · Markdown 驱动</div>
-          <h1 className="w-full text-3xl font-black leading-tight tracking-[-0.045em] sm:text-5xl lg:text-6xl">{site.title}</h1>
+          <h1 className="w-full text-3xl font-black leading-tight tracking-[-0.04em] sm:text-4xl lg:text-5xl">{site.title}</h1>
           <p className="mt-6 w-full text-base leading-8 text-slate-600 sm:text-lg lg:text-xl">{site.description}</p>
           <div className="mt-7 flex flex-wrap gap-2">
             {site.heroTags.map((tag) => <span key={tag} className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 shadow-sm">{tag}</span>)}
