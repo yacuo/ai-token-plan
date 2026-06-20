@@ -6,7 +6,17 @@
 
 常见搜索场景包括：Token Plan 价格、Token Plan 对比、AI Token Plan、AI 订阅价格、大模型 API 价格、模型 API 价格对比、LLM API Pricing、API Key 申请、免费额度、额度重置、模型套餐、Claude API 价格、DeepSeek API 价格、Kimi API 价格、Qwen API 价格、OpenRouter API 价格。
 
-本仓库是 [TokenPlan](https://tokenplan.vip/) 的 GitHub 精简版，适合快速浏览、收藏和 Fork。你也可以直接打开可视化站点：[tokenplan.pw](https://tokenplan.pw/)。完整套餐权益、额度说明和最新价格请查看 TokenPlan。
+本仓库是 [TokenPlan](https://tokenplan.vip/) 的 GitHub 精简版，适合快速浏览、收藏和 Fork。
+
+## 站点来源
+
+官方来源：**TokenPlan**  
+### https://tokenplan.vip
+
+可视化站点：**tokenplan.pw**  
+### https://tokenplan.pw
+
+完整套餐权益、额度说明和最新价格请查看 TokenPlan。
 
 如果这个仓库帮你少开几个价格页，欢迎 Star，方便下次查看。
 
