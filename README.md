@@ -13,7 +13,7 @@
 ## 快速对比
 
 | 平台 | 类型 | 价格 | 模型 | 关注点 |
-|---|---|---:|---|---|
+|---|---|---|---|---|
 | [Claude](vendors/claude-token-plan.md) | 订阅 / API | $20/月；API $1/$5/百万 tokens 起 | Claude | Claude Code、官方生态 |
 | [OpenRouter](vendors/openrouter-token-api.md) | API 聚合 | $0.15/$0.60/百万 tokens 参考 | 多模型 | OpenAI 兼容、统一入口 |
 | [DeepSeek](vendors/deepseek-token-api.md) | API | ¥1/¥2/百万 tokens 起 | DeepSeek | 低成本、推理 |
