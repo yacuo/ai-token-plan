@@ -41,39 +41,39 @@
 
 ### Claude Token Plan / Claude API
 
-Claude 适合关注 Claude Opus、Claude Sonnet、Claude Haiku、Claude Code、Anthropic API、Claude API 价格和 Claude Token Plan 的用户。订阅和 API 通常是不同计费体系，适合分别比较。
+Claude 价格从 $20/月起，API 参考 $1/$5/百万 tokens 起。适合关注 Claude Opus、Claude Sonnet、Claude Haiku、Claude Code、Anthropic API、Claude API 价格和 Claude Token Plan 的用户。订阅和 API 是不同计费体系，适合分别比较。
 
 ### OpenRouter API
 
-OpenRouter 适合关注 OpenRouter API 价格、OpenAI 兼容接口、多模型 API 聚合、API Key 统一管理、Claude / OpenAI / Gemini / DeepSeek / Qwen 多模型切换的用户。
+OpenRouter 参考价格 $0.15/$0.60/百万 tokens 起，不同模型按 provider 单价变化。适合关注 OpenRouter API 价格、OpenAI 兼容接口、多模型 API 聚合、API Key 统一管理、Claude / OpenAI / Gemini / DeepSeek / Qwen 多模型切换的用户。
 
 ### DeepSeek API
 
-DeepSeek 适合关注 DeepSeek API 价格、DeepSeek V3、DeepSeek R1、国产大模型 API、低成本 Token 调用和推理模型 API 的用户。
+DeepSeek API 价格从 ¥1/¥2/百万 tokens 起。适合关注 DeepSeek API 价格、DeepSeek V4-Flash、DeepSeek V4-Pro、国产大模型 API、低成本 Token 调用和推理模型 API 的用户。
 
 ### Kimi Token Plan / Kimi API
 
-Kimi 适合关注 Kimi Token Plan、Kimi API 价格、Kimi K2.7 Code、Kimi K2.6、Kimi 会员套餐、Agent 和编程套餐的用户。
+Kimi 会员价格从 ¥49/月起。适合关注 Kimi Token Plan、Kimi API 价格、Kimi K2.7 Code、Kimi K2.6、Kimi 会员套餐、Agent 和编程套餐的用户。
 
 ### Qwen / 通义千问 API
 
-Qwen 适合关注 Qwen API 价格、通义千问 API、阿里云百炼、Qwen Coder、Qwen 多模态模型和国产大模型 API 的用户。
+Qwen API 价格从 ¥0.3/¥0.6/百万 tokens 起。适合关注 Qwen API 价格、通义千问 API、阿里云百炼、Qwen Coder、Qwen 多模态模型和国产大模型 API 的用户。
 
 ### MiniMax Token Plan / MiniMax API
 
-MiniMax 适合关注 MiniMax Token Plan、MiniMax API 价格、MiniMax-M3、MiniMax-M2.7、积分制套餐、多模态模型和 Agent 调用的用户。
+MiniMax 价格从 ¥49/月起，积分价格 1000=¥7。适合关注 MiniMax Token Plan、MiniMax API 价格、MiniMax-M3、MiniMax-M2.7、积分制套餐、多模态模型和 Agent 调用的用户。
 
 ### Gemini API / Gemini 订阅
 
-Gemini 适合关注 Gemini API 价格、Google AI Pro、Gemini Pro、Gemini Flash、长上下文模型、多模态模型和 Google AI Studio 的用户。
+Gemini 订阅价格从 $4.99/月起，Pro 为 $19.99/月。适合关注 Gemini API 价格、Google AI Pro、Gemini Pro、Gemini Flash、长上下文模型、多模态模型和 Google AI Studio 的用户。
 
 ### Doubao / 豆包 API
 
-Doubao 适合关注 Doubao API 价格、豆包大模型、火山方舟、国产模型 API、Agent 接入和多模态应用的用户。
+Doubao API 价格从 ¥0.2/¥2/百万 tokens 起。适合关注 Doubao API 价格、豆包大模型、火山方舟、国产模型 API、Agent 接入和多模态应用的用户。
 
 ### GLM / 智谱 API
 
-GLM 适合关注 GLM API 价格、智谱大模型、GLM Token Plan、国产模型 API、编程模型和多模态模型的用户。
+GLM Token Plan 价格从 ¥49/月起。适合关注 GLM API 价格、智谱大模型、GLM Token Plan、国产模型 API、编程模型和多模态模型的用户。
 
 ## 适合谁看
 
