@@ -7,6 +7,8 @@ tags: "MiniMax,Token Plan,Coding Plan,价格对比,额度,官网入口"
 
 # MiniMax Token Plan 优惠、价格对比 ｜ Coding Plan 官网入口 - TokenPlan
 
+> 可视化页面：[https://tokenplan.pw/minimax-token-plan/](https://tokenplan.pw/minimax-token-plan/)
+
 ## 综合对比重点
 
 本页不是单纯列价格，而是围绕 Token Plan、Coding Plan、价格对比、额度、额度重置、免费额度、优惠、官网入口、申请入口、Claude Code 平替和 Cursor 接入等搜索场景做综合整理。

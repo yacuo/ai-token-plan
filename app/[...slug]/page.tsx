@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import site from "../../site.config.json";
 import SiteFooter from "../SiteFooter";
+import TocNav from "../TocNav";
 import { getArticle, getArticles } from "../../lib/content";
 
 type SiteItem = { name: string; url: string; detailUrl?: string };
@@ -93,11 +94,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           </div>
           <div className="rounded-xl border border-slate-200 bg-white/85 p-5 shadow-sm backdrop-blur">
             <div className="text-sm font-bold text-slate-500">文章目录</div>
-            <div className="mt-3 grid gap-2 text-sm">
-              {article.toc.map((item) => (
-                <a key={item.id} className={item.level === 1 ? "font-bold text-slate-900" : "pl-3 text-slate-600 hover:text-slate-950"} href={`#${item.id}`}>{item.text}</a>
-              ))}
-            </div>
+            <TocNav items={article.toc} />
           </div>
         </aside>
       </div>

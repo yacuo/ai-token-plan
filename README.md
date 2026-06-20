@@ -6,7 +6,7 @@
 
 常见搜索场景包括：Token Plan 价格、Token Plan 对比、AI Token Plan、AI 订阅价格、大模型 API 价格、模型 API 价格对比、LLM API Pricing、API Key 申请、免费额度、额度重置、模型套餐、Claude API 价格、DeepSeek API 价格、Kimi API 价格、Qwen API 价格、OpenRouter API 价格。
 
-本仓库是 [TokenPlan](https://tokenplan.vip/) 的 GitHub 精简版，适合快速浏览、收藏和 Fork。完整套餐权益、额度说明和最新价格请查看 TokenPlan。
+本仓库是 [TokenPlan](https://tokenplan.vip/) 的 GitHub 精简版，适合快速浏览、收藏和 Fork。你也可以直接打开可视化站点：[tokenplan.pw](https://tokenplan.pw/)。完整套餐权益、额度说明和最新价格请查看 TokenPlan。
 
 如果这个仓库帮你少开几个价格页，欢迎 Star，方便下次查看。
 
@@ -17,19 +17,19 @@
 | [Claude](vendors/claude-token-plan.md) | 订阅 / API | $20/月 | Claude Opus / Sonnet / Haiku | 官方订阅、Claude Code、API |
 | [OpenRouter](vendors/openrouter-token-api.md) | API 聚合 | 按量计费 | 340+ 模型 | OpenAI 兼容、多模型统一入口 |
 | [DeepSeek](vendors/deepseek-token-api.md) | API | 按量计费 | DeepSeek V3 / R1 | 国产 API、低成本模型调用 |
-| [Kimi](vendors/kimi.md) | Token Plan / API | ¥49/月 | Kimi K2.7 Code / K2.6 | 会员套餐、Agent、编程 |
+| [Kimi](vendors/kimi-token-plan.md) | Token Plan / API | ¥49/月 | Kimi K2.7 Code / K2.6 | 会员套餐、Agent、编程 |
 | [Qwen](vendors/qianwen-token-api.md) | API | 按量计费 | Qwen 系列 | 通义千问模型生态 |
 | [MiniMax](vendors/minimax-token-plan.md) | Token Plan / API | ¥49/月 | MiniMax-M3 / M2.7 | 积分制、多模态、Agent |
-| [Gemini](vendors/gemini.md) | 订阅 / API | $19.99/月 | Gemini Pro / Flash | Google 生态、长上下文 |
-| [Doubao](vendors/doubao.md) | API | 按量计费 | Doubao 系列 | 火山方舟、国产模型 API |
-| [GLM](vendors/glm.md) | Token Plan / API | ¥49/月 | GLM 系列 | 智谱模型生态 |
+| [Gemini](vendors/gemini-token-plan.md) | 订阅 / API | $19.99/月 | Gemini Pro / Flash | Google 生态、长上下文 |
+| [Doubao](vendors/doubao-token-api.md) | API | 按量计费 | Doubao 系列 | 火山方舟、国产模型 API |
+| [GLM](vendors/zhipu-token-plan.md) | Token Plan / API | ¥49/月 | GLM 系列 | 智谱模型生态 |
 
 
 ## 专题目录
 
 - [LLM API 价格目录](guides/llm-api-pricing.md)：整理 OpenAI API 价格、Claude API 价格、Gemini API 价格、DeepSeek API 价格、Qwen API 价格、Doubao API 价格、GLM API 价格等常见大模型 API 价格方向。
-- [AI Token Plan 套餐价格目录](guides/token-plan-pricing.md)：整理 Claude Token Plan、Kimi Token Plan、MiniMax Token Plan、Gemini 订阅、GLM Token Plan 等 AI Token Plan 套餐价格方向。
-- [免费额度目录](guides/free-tiers.md)：整理大模型 API 免费额度、AI API 免费额度、Token Plan 免费档、开发者控制台试用额度等低成本入口方向。
+- [AI Token Plan 套餐价格目录](guides/ai-token-plan-pricing.md)：整理 Claude Token Plan、Kimi Token Plan、MiniMax Token Plan、Gemini 订阅、GLM Token Plan 等 AI Token Plan 套餐价格方向。
+- [免费额度目录](guides/ai-api-free-tiers.md)：整理大模型 API 免费额度、AI API 免费额度、Token Plan 免费档、开发者控制台试用额度等低成本入口方向。
 
 ## 常见查询场景
 
