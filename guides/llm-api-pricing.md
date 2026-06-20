@@ -54,13 +54,13 @@ tags: "LLM API,API 价格,大模型 API,价格目录,API key 申请"
 
 ## 入口索引
 
-- [Claude Token Plan](../vendors/claude-token-plan.md)
-- [OpenRouter Token API](../vendors/openrouter-token-api.md)
-- [DeepSeek Token API](../vendors/deepseek-token-api.md)
-- [Qwen Token API](../vendors/qianwen-token-api.md)
-- [Doubao Token API](../vendors/doubao-token-api.md)
-- [Zhipu Token Plan](../vendors/zhipu-token-plan.md)
-- [Gemini Token Plan](../vendors/gemini-token-plan.md)
+- [Claude Token Plan](/claude-token-plan/)
+- [OpenRouter Token API](/openrouter-token-api/)
+- [DeepSeek Token API](/deepseek-token-api/)
+- [Qwen Token API](/qianwen-token-api/)
+- [Doubao Token API](/doubao-token-api/)
+- [Zhipu Token Plan](/zhipu-token-plan/)
+- [Gemini Token Plan](/gemini-token-plan/)
 
 ## 说明
 

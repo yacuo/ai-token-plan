@@ -48,11 +48,11 @@ tags: "Token Plan,AI 订阅,套餐价格,额度重置,优惠"
 
 ## 入口索引
 
-- [Claude Token Plan](../vendors/claude-token-plan.md)
-- [Kimi Token Plan](../vendors/kimi-token-plan.md)
-- [MiniMax Token Plan](../vendors/minimax-token-plan.md)
-- [Gemini Token Plan](../vendors/gemini-token-plan.md)
-- [Zhipu Token Plan](../vendors/zhipu-token-plan.md)
+- [Claude Token Plan](/claude-token-plan/)
+- [Kimi Token Plan](/kimi-token-plan/)
+- [MiniMax Token Plan](/minimax-token-plan/)
+- [Gemini Token Plan](/gemini-token-plan/)
+- [Zhipu Token Plan](/zhipu-token-plan/)
 
 ## 说明
 

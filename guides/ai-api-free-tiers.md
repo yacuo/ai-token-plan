@@ -48,12 +48,12 @@ tags: "免费额度,API 免费额度,试用额度,额度重置,低成本入口"
 
 ## 入口索引
 
-- [OpenRouter Token API](../vendors/openrouter-token-api.md)
-- [DeepSeek Token API](../vendors/deepseek-token-api.md)
-- [Qwen Token API](../vendors/qianwen-token-api.md)
-- [Doubao Token API](../vendors/doubao-token-api.md)
-- [Zhipu Token Plan](../vendors/zhipu-token-plan.md)
-- [Gemini Token Plan](../vendors/gemini-token-plan.md)
+- [OpenRouter Token API](/openrouter-token-api/)
+- [DeepSeek Token API](/deepseek-token-api/)
+- [Qwen Token API](/qianwen-token-api/)
+- [Doubao Token API](/doubao-token-api/)
+- [Zhipu Token Plan](/zhipu-token-plan/)
+- [Gemini Token Plan](/gemini-token-plan/)
 
 ## 说明
 
