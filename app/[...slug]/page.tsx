@@ -63,6 +63,10 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           </div>
           <h1 className="mt-5 text-3xl font-black leading-tight tracking-[-0.045em] sm:text-5xl lg:text-6xl">{article.title}</h1>
           <p className="mt-5 text-base leading-8 text-slate-600 sm:text-lg">{article.description}</p>
+          <section className="mt-6 rounded-xl border border-blue-100 bg-blue-50/70 p-5">
+            <h2 className="text-lg font-black text-slate-950">综合对比重点</h2>
+            <p className="mt-2 text-sm leading-7 text-slate-700">本页不是单纯列价格，而是围绕 Token Plan、Coding Plan、价格对比、额度、额度重置、免费额度、优惠、官网入口、申请入口、Claude Code 平替和 Cursor 接入等搜索场景做综合整理。</p>
+          </section>
           {detailUrl ? (
             <div className="mt-7 rounded-xl border border-slate-200 bg-gradient-to-br from-slate-950 to-slate-800 p-5 text-white shadow-lg sm:p-6">
               <div className="text-sm font-semibold text-slate-300">数据来源：TokenPlan 详情</div>

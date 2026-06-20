@@ -165,7 +165,7 @@ export function getArticles(): Article[] {
       const tags = (data.tags || "").split(",").map((tag) => tag.trim()).filter(Boolean);
       const name = file.replace(/\.md$/, "");
       const slug = [name];
-      return { slug, href: `/${name}/`, sourcePath: `${dir}/${file}`, title: seo.title, description: data.description || seo.description, keywords: data.keywords || seo.keywords, tags, toc: getToc(body), body: markdownToHtml(body) };
+      return { slug, href: `/${name}/`, sourcePath: `${dir}/${file}`, title: seo.title, description: seo.description, keywords: seo.keywords, tags, toc: getToc(body), body: markdownToHtml(body) };
     });
   });
 }
