@@ -124,10 +124,10 @@ function markdownToHtml(markdown: string) {
 
 function getToc(markdown: string): TocItem[] {
   return markdown.split("\n").flatMap((line) => {
-    const match = /^(#{1,2})\s+(.+)$/.exec(line.trim());
+    const match = /^(##)\s+(.+)$/.exec(line.trim());
     if (!match) return [];
     const text = match[2].replace(/\[([^\]]+)\]\(([^)]+)\)/g, "$1");
-    return [{ id: slugify(text), text, level: match[1].length as 1 | 2 }];
+    return [{ id: slugify(text), text, level: 2 }];
   });
 }
 
