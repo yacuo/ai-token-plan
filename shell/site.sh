@@ -7,6 +7,23 @@ cd "$project_dir"
 
 command="${1:-preview}"
 port="${PORT:-4171}"
+run_dir="$project_dir/.run"
+pid_file="$run_dir/site-${command}.pid"
+log_file="$run_dir/site-${command}.log"
+
+mkdir -p "$run_dir"
+
+stop_pid() {
+  local pid="$1"
+  [[ -z "$pid" ]] && return 0
+  kill -0 "$pid" >/dev/null 2>&1 || return 0
+  kill "$pid" || true
+  for _ in {1..30}; do
+    kill -0 "$pid" >/dev/null 2>&1 || return 0
+    sleep 0.2
+  done
+  kill -9 "$pid" >/dev/null 2>&1 || true
+}
 
 kill_port() {
   local port="$1"
@@ -19,6 +36,32 @@ kill_port() {
   fi
 }
 
+stop_previous() {
+  if [[ -f "$pid_file" ]]; then
+    local pid
+    pid="$(<"$pid_file")"
+    stop_pid "$pid"
+    rm -f "$pid_file"
+  fi
+}
+
+start_background() {
+  local target_command="$1"
+  stop_previous
+  kill_port "$port"
+  nohup bash -lc "$target_command" >> "$log_file" 2>&1 &
+  local pid=$!
+  echo "$pid" > "$pid_file"
+  sleep 2
+  echo ""
+  echo "[信息] ========== 后台服务已启动 =========="
+  echo "本机：      http://localhost:${port}"
+  echo "pid：       ${pid}"
+  echo "日志：      ${log_file}"
+  echo "停止：      kill \$(cat \"${pid_file}\")"
+  echo "========================================"
+}
+
 case "$command" in
   install)
     npm install
@@ -27,16 +70,14 @@ case "$command" in
     npm run build
     ;;
   preview)
-    kill_port "$port"
     npm install
     npm run build
-    npm run preview -- -p "$port"
+    start_background "cd '$project_dir' && npm run preview -- -p '$port'"
     ;;
   dev)
-    kill_port "$port"
     npm install
     npm run build
-    npx next dev -p "$port"
+    start_background "cd '$project_dir' && npx next dev -p '$port'"
     ;;
   deploy)
     npm install
