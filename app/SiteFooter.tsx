@@ -17,6 +17,7 @@ export default function SiteFooter() {
           <div>
             <div className="font-black text-slate-950">站点说明</div>
             <p className="mt-2 leading-7">静态博客 · Markdown 驱动。价格、额度和权益可能变化，请以数据来源和官方页面为准。</p>
+            <a className="mt-3 inline-flex font-bold text-slate-900 underline decoration-slate-300 underline-offset-4 hover:text-slate-700" href="/sitemap.xml">站长地图</a>
           </div>
         </div>
       </div>

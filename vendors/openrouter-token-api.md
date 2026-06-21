@@ -2,6 +2,7 @@
 title: "OpenRouter API 优惠、价格对比 ｜ Token Plan、Coding Plan 申请入口 - TokenPlan"
 description: "OpenRouter API、Token Plan、Coding Plan 综合对比，覆盖价格、额度、用量、限速、免费额度、优惠、官网入口与 API key 申请，适合比较 OpenRouter 怎么样、值不值得，以及 Claude Code、Cursor 接入配置。"
 keywords: "Token Plan,Coding Plan,OpenRouter API,OpenRouter API 价格,OpenRouter API 对比,OpenRouter API 优惠,API key 申请,接入 Claude Code,Claude Code 平替,OpenRouter 怎么样,用量,限速,免费额度,额度,官网入口,Claude Code,Cursor,Codex"
+date: "2026-06-19"
 tags: "OpenRouter,Token Plan,Coding Plan,价格对比,额度,官网入口"
 ---
 

@@ -2,6 +2,7 @@
 title: "AI API 免费额度目录：免费试用、额度重置、低成本入口"
 description: "整理大模型 API 免费额度、AI API 免费额度、Token Plan 免费档、试用额度、额度重置、官网入口和 API key 申请方向。"
 keywords: "AI API 免费额度,大模型 API 免费额度,Token Plan 免费额度,免费试用,额度重置,API key 申请,官网入口,DeepSeek 免费额度,Qwen 免费额度,Doubao 免费额度,GLM 免费额度"
+date: "2026-06-19"
 tags: "免费额度,API 免费额度,试用额度,额度重置,低成本入口"
 ---
 

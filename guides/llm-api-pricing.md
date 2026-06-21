@@ -2,6 +2,7 @@
 title: "LLM API 价格目录：大模型 API 价格、额度、申请入口综合对比"
 description: "整理 Claude API、OpenRouter API、DeepSeek API、Qwen API、Doubao API、GLM API、Gemini API 等大模型 API 的价格、额度、免费额度、官网入口和 API key 申请方向。"
 keywords: "LLM API 价格,大模型 API 价格,AI API 价格,Claude API 价格,DeepSeek API 价格,Qwen API 价格,Doubao API 价格,GLM API 价格,Gemini API 价格,API key 申请,免费额度,额度重置,官网入口"
+date: "2026-06-19"
 tags: "LLM API,API 价格,大模型 API,价格目录,API key 申请"
 ---
 

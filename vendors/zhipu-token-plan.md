@@ -2,6 +2,7 @@
 title: "Zhipu GLM Token Plan 优惠、价格对比 ｜ Coding Plan 官网入口 - TokenPlan"
 description: "Zhipu GLM Token Plan、Coding Plan 综合对比，覆盖价格、额度、额度重置、免费额度、优惠和官网入口，适合比较 Zhipu GLM 怎么样、值不值得，以及 Claude Code 平替、Cursor 接入等使用场景。"
 keywords: "Token Plan,Coding Plan,Zhipu GLM,Zhipu GLM 价格,Zhipu GLM 对比,Zhipu GLM 优惠,Claude Code 平替,Zhipu GLM 怎么样,额度,额度重置,免费额度,官网入口,Claude Code,Cursor,Codex"
+date: "2026-06-19"
 tags: "Zhipu GLM,Token Plan,Coding Plan,价格对比,额度,官网入口"
 ---
 

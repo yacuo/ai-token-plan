@@ -2,6 +2,7 @@
 title: "AI Token Plan 套餐价格目录：订阅、额度、重置、优惠综合对比"
 description: "整理 Claude Token Plan、Kimi Token Plan、MiniMax Token Plan、Gemini Token Plan、GLM Token Plan 等 AI 套餐的价格、额度、重置、优惠和官网入口。"
 keywords: "AI Token Plan,Token Plan 价格,Token Plan 对比,Claude Token Plan,Kimi Token Plan,MiniMax Token Plan,Gemini Token Plan,GLM Token Plan,额度重置,免费额度,优惠,官网入口"
+date: "2026-06-19"
 tags: "Token Plan,AI 订阅,套餐价格,额度重置,优惠"
 ---
 
