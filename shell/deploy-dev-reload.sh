@@ -7,6 +7,7 @@ cd "$project_dir"
 
 command="${1:-preview}"
 port="${PORT:-4171}"
+site_url="${SITE_URL:-http://localhost:${port}/}"
 run_dir="$project_dir/.run"
 pid_file="$run_dir/site-${command}.pid"
 log_file="$run_dir/site-${command}.log"
@@ -67,25 +68,24 @@ case "$command" in
     npm install
     ;;
   build)
-    npm run build
+    SITE_URL="$site_url" npm run build
     ;;
   preview)
     npm install
-    npm run build
-    start_background "cd '$project_dir' && npm run preview -- -p '$port'"
+    SITE_URL="$site_url" npm run build
+    start_background "cd '$project_dir' && SITE_URL='$site_url' npm run preview -- -p '$port'"
     ;;
   dev)
     npm install
-    npm run build
-    start_background "cd '$project_dir' && npx next dev -p '$port'"
+    start_background "cd '$project_dir' && SITE_URL='$site_url' npx next dev -p '$port'"
     ;;
   deploy)
     npm install
-    npm run build
+    SITE_URL="$site_url" npm run build
     echo "Static export generated in ./out. Configure GitHub Pages or CDN to deploy this directory."
     ;;
   *)
-    echo "Usage: ./shell/site.sh [install|build|preview|dev|deploy]"
+    echo "Usage: ./shell/deploy-dev-reload.sh [install|build|preview|dev|deploy]"
     exit 1
     ;;
 esac

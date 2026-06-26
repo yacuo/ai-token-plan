@@ -12,8 +12,12 @@ function escapeXml(value: string): string {
     .replace(/'/g, "&apos;");
 }
 
+function getBaseUrl(): string {
+  return process.env.SITE_URL || site.siteUrl;
+}
+
 function toUrl(path: string): string {
-  return new URL(path, site.siteUrl).toString();
+  return new URL(path, getBaseUrl()).toString();
 }
 
 export async function GET() {

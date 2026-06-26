@@ -12,7 +12,9 @@ tags: "Token Plan,AI 订阅,套餐价格,额度重置,优惠"
 
 这个专题整理适合个人、开发者和小团队关注的 AI Token Plan。重点不是只看月费，而是同时看模型能力、额度、额度重置、免费额度、优惠入口、官网入口和是否能用于 Claude Code / Cursor 等工具。
 
-数据来源：[TokenPlan 详情：https://tokenplan.vip/](https://tokenplan.vip/)
+数据来源：TokenPlan 详情
+
+[https://tokenplan.vip](https://tokenplan.vip)
 
 ## 快速对比
 
@@ -60,3 +62,26 @@ tags: "Token Plan,AI 订阅,套餐价格,额度重置,优惠"
 ## 说明
 
 套餐价格、额度和优惠经常变化。这个页面用于做综合选型，最终价格请以官方页面和 [TokenPlan](https://tokenplan.vip/) 为准。
+
+## 常见问题
+
+### AI Token Plan 套餐价格目录 主要解决什么问题？
+
+AI Token Plan 套餐价格目录 主要用于快速比较 AI 订阅和 Token Plan 套餐，覆盖 Claude、Kimi、MiniMax、Gemini、GLM 等订阅与套餐价格，帮助用户减少反复打开多个官网价格页的时间。
+
+### 为什么需要单独整理 AI 订阅和 Token Plan 套餐？
+
+不同平台的计费单位、免费额度、模型名称、上下文长度和套餐权益差异很大，单独整理后更方便做横向比较和初步筛选。
+
+### 这个目录适合开发者还是普通用户？
+
+两类用户都适合。开发者可以用来估算 API 成本、选择模型和申请 API Key；普通用户可以用来比较订阅价格、套餐权益和免费额度。
+
+### 使用这些价格信息时要注意什么？
+
+适合比较月费、额度、重置周期、免费额度和适用场景。价格、额度和权益可能随时变化，正式购买或接入前应以官方页面和 TokenPlan 实时页面为准。
+
+### Token Plan 和 API 价格应该怎么一起看？
+
+Token Plan 适合看套餐权益、额度和订阅成本；API 价格适合看模型调用成本、输入输出 tokens 单价和生产环境费用。做 AI 应用时建议同时比较两者。
+

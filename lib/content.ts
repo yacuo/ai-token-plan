@@ -91,9 +91,17 @@ function markdownToHtml(markdown: string) {
       continue;
     }
 
-    if (trimmed.startsWith("数据来源：")) {
+    if (trimmed === "数据来源：TokenPlan 详情" && /^\[https?:\/\/.+\]\(https?:\/\/.+\)$/.test(lines[index + 2]?.trim() || "")) {
       if (listOpen) { html.push("</ul>"); listOpen = false; }
-      html.push(`<div class="source-card">${inlineMarkdown(trimmed)}</div>`);
+      html.push(`<div class="source-card"><div>${inlineMarkdown(trimmed)}</div><div>${inlineMarkdown(lines[index + 2].trim())}</div></div>`);
+      index += 3;
+      continue;
+    }
+
+    if (trimmed.startsWith("> 可视化页面：")) {
+      if (listOpen) { html.push("</ul>"); listOpen = false; }
+      const link = trimmed.slice("> 可视化页面：".length).trim();
+      html.push(`<div class="visual-page-card"><div>可视化页面：</div><div>${inlineMarkdown(link)}</div></div>`);
       index += 1;
       continue;
     }

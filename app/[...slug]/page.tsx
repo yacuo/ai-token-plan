@@ -39,7 +39,6 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   const article = articles[index];
   if (!article) notFound();
 
-  const detailUrl = getDetailUrl(article.href);
   const prev = index > 0 ? articles[index - 1] : undefined;
   const next = index < articles.length - 1 ? articles[index + 1] : undefined;
   const categoryLabel = article.sourcePath.startsWith("vendors/") ? "厂商文章" : "专题文章";
@@ -47,8 +46,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 
   return (
     <main className="min-h-screen bg-[radial-gradient(circle_at_top_left,#dbeafe,transparent_30%),linear-gradient(180deg,#f8fafc_0%,#fff_42%,#f8fafc_100%)] text-slate-950">
-      <header className="mx-auto max-w-7xl px-4 py-5 sm:px-6 lg:px-8">
-        <nav className="flex flex-col gap-3 rounded-2xl border border-white/70 bg-white/80 px-4 py-3 shadow-sm backdrop-blur md:flex-row md:items-center md:justify-between">
+      <header className="sticky top-0 z-50 mx-auto max-w-7xl px-4 py-3 sm:px-6 lg:px-8">
+        <nav className="flex flex-col gap-3 rounded-2xl border border-white/80 bg-white/95 px-4 py-3 shadow-lg shadow-slate-200/70 backdrop-blur md:flex-row md:items-center md:justify-between">
           <Link href="/" className="flex items-center gap-3 font-black tracking-tight"><span className="grid h-9 w-9 place-items-center rounded-xl bg-slate-950 text-sm text-white">TP</span>{site.brand}</Link>
           <div className="flex flex-wrap items-center gap-2 text-sm font-semibold text-slate-600">
             <Link className="rounded-full px-3 py-2 hover:bg-slate-100" href="/">首页</Link>
@@ -64,18 +63,10 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           <div className="mt-6 flex flex-wrap gap-2">
             {article.tags.map((tag) => <span key={tag} className="rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs font-semibold text-slate-600">{tag}</span>)}
           </div>
-          <h1 className="mt-5 text-2xl font-black leading-tight tracking-[-0.035em] sm:text-4xl lg:text-4xl">{article.title}</h1>
-          <p className="mt-5 text-base leading-8 text-slate-600 sm:text-lg">{article.description}</p>
           <section className="mt-6 rounded-xl border border-blue-100 bg-blue-50/70 p-5">
             <h2 className="text-lg font-black text-slate-950">综合对比重点</h2>
             <p className="mt-2 text-sm leading-7 text-slate-700">本页不是单纯列价格，而是围绕 Token Plan、Coding Plan、价格对比、额度、额度重置、免费额度、优惠、官网入口、申请入口、Claude Code 平替和 Cursor 接入等搜索场景做综合整理。</p>
           </section>
-          {detailUrl ? (
-            <div className="mt-7 rounded-xl border border-slate-200 bg-gradient-to-br from-slate-950 to-slate-800 p-5 text-white shadow-lg sm:p-6">
-              <div className="text-sm font-semibold text-slate-300">数据来源：TokenPlan 详情</div>
-              <a className="mt-2 inline-flex break-all text-lg font-black underline decoration-white/40 underline-offset-4" href={detailUrl}>{detailUrl}</a>
-            </div>
-          ) : null}
           <div className="prose prose-slate mt-9 max-w-none" dangerouslySetInnerHTML={{ __html: article.body }} />
           <nav className="mt-12 grid gap-3 border-t border-slate-200 pt-6 sm:grid-cols-2">
             {prev ? <Link className="rounded-2xl border border-slate-200 bg-slate-50 p-4 transition hover:bg-white hover:shadow-sm" href={prev.href}><span className="block text-sm font-semibold text-slate-500">上一篇</span><strong>{prev.title}</strong></Link> : <div />}
@@ -83,7 +74,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           </nav>
         </article>
         <aside className="space-y-4 lg:sticky lg:top-6 lg:self-start">
-          <div className="rounded-xl border border-slate-200 bg-white/85 p-5 shadow-sm backdrop-blur">
+          <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
             <div className="text-sm font-bold text-slate-500">文章来源</div>
             <div className="mt-3 grid gap-2">
               <a className="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-slate-50 px-3 py-2 text-sm font-bold" href={site.githubUrl}><GithubIcon /> GitHub 仓库</a>
@@ -92,8 +83,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             <div className="mt-5 text-sm font-bold text-slate-500">当前分类</div>
             <div className="mt-2 rounded-xl bg-slate-100 px-3 py-2 text-sm font-bold text-slate-700">{categoryLabel}</div>
           </div>
-          <div className="rounded-xl border border-slate-200 bg-white/85 p-5 shadow-sm backdrop-blur">
-            <div className="text-sm font-bold text-slate-500">文章目录</div>
+          <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+            <div className="text-sm font-black text-slate-950">文章目录</div>
             <TocNav items={article.toc} />
           </div>
         </aside>

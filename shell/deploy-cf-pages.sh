@@ -13,6 +13,7 @@ cd "$ROOT"
 
 PROJECT="ai-token-plan"
 OUT_DIR="$ROOT/out"
+SITE_URL="${SITE_URL:-https://tokenplan.pw/}"
 SKIP_BUILD=false
 
 for arg in "$@"; do
@@ -38,8 +39,8 @@ echo ""
 echo "--- ai-token-plan -> Cloudflare Pages project: $PROJECT ---"
 
 if [[ "$SKIP_BUILD" == false ]]; then
-  echo ">>> npm run build"
-  npm run build
+  echo ">>> SITE_URL=$SITE_URL npm run build"
+  SITE_URL="$SITE_URL" npm run build
 fi
 
 if [[ ! -d "$OUT_DIR" ]]; then

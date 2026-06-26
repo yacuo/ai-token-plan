@@ -12,7 +12,9 @@ tags: "LLM API,API 价格,大模型 API,价格目录,API key 申请"
 
 这个专题不是单纯列价格，而是把常见大模型 API 的价格、额度、免费额度、申请入口、官网入口、模型覆盖、Claude Code / Cursor 接入可能性放在一起看。
 
-数据来源：[TokenPlan 详情：https://tokenplan.vip/](https://tokenplan.vip/)
+数据来源：TokenPlan 详情
+
+[https://tokenplan.vip](https://tokenplan.vip)
 
 ## 快速对比
 
@@ -68,3 +70,26 @@ tags: "LLM API,API 价格,大模型 API,价格目录,API key 申请"
 ## 说明
 
 价格、额度、模型名称和套餐权益可能变化。这个专题用于做选型索引，最终价格和可用额度请以官方页面和 [TokenPlan](https://tokenplan.vip/) 实时数据为准。
+
+## 常见问题
+
+### LLM API 价格目录 主要解决什么问题？
+
+LLM API 价格目录 主要用于快速比较 大模型 API 价格对比，覆盖 OpenAI、Claude、Gemini、DeepSeek、Qwen、Doubao、GLM 等 API 价格，帮助用户减少反复打开多个官网价格页的时间。
+
+### 为什么需要单独整理 大模型 API 价格对比？
+
+不同平台的计费单位、免费额度、模型名称、上下文长度和套餐权益差异很大，单独整理后更方便做横向比较和初步筛选。
+
+### 这个目录适合开发者还是普通用户？
+
+两类用户都适合。开发者可以用来估算 API 成本、选择模型和申请 API Key；普通用户可以用来比较订阅价格、套餐权益和免费额度。
+
+### 使用这些价格信息时要注意什么？
+
+适合开发者做模型选型、成本估算和 API Key 申请前对比。价格、额度和权益可能随时变化，正式购买或接入前应以官方页面和 TokenPlan 实时页面为准。
+
+### Token Plan 和 API 价格应该怎么一起看？
+
+Token Plan 适合看套餐权益、额度和订阅成本；API 价格适合看模型调用成本、输入输出 tokens 单价和生产环境费用。做 AI 应用时建议同时比较两者。
+

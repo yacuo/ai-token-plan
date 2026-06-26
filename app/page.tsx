@@ -36,9 +36,9 @@ export default function Home() {
           <div className="mt-7 flex flex-wrap gap-2">
             {site.heroTags.map((tag) => <span key={tag} className="rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 shadow-sm">{tag}</span>)}
           </div>
-          <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-            <a className="rounded-xl bg-slate-950 px-5 py-3 text-center font-bold text-white shadow-lg shadow-slate-300 transition hover:-translate-y-0.5" href="#guides">查看对比案例</a>
-            <a className="inline-flex items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white px-5 py-3 font-bold text-slate-900 shadow-sm transition hover:-translate-y-0.5" href={site.githubUrl}><GithubIcon /> 查看仓库来源</a>
+          <div className="mt-9 grid gap-4 sm:grid-cols-2 lg:max-w-2xl">
+            <a className="inline-flex min-h-14 items-center justify-center rounded-2xl bg-slate-950 px-8 py-4 text-base font-black text-white shadow-xl shadow-slate-300/80 transition hover:-translate-y-1 hover:bg-slate-800 sm:text-lg" href="#guides">查看对比案例</a>
+            <a className="inline-flex min-h-14 items-center justify-center gap-2 rounded-2xl border-2 border-slate-950 bg-white px-8 py-4 text-base font-black text-slate-950 shadow-lg shadow-slate-200 transition hover:-translate-y-1 hover:bg-slate-100 sm:text-lg" href={site.githubUrl}><GithubIcon /> 查看仓库来源</a>
           </div>
         </div>
       </section>
@@ -48,7 +48,7 @@ export default function Home() {
           <div><h2 className="text-3xl font-black tracking-tight sm:text-4xl">对比案例</h2><p className="mt-2 max-w-2xl text-slate-600">先看高意图搜索场景：价格、额度、免费额度、官网入口和申请入口怎么选。</p></div>
         </div>
         <div className="grid gap-4 md:grid-cols-3">
-          {site.guides.map((guide, index) => <a key={guide.url} className="group rounded-xl border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-1 hover:border-slate-300 hover:shadow-xl" href={guide.url}><span className="rounded-full bg-slate-950 px-2.5 py-1 text-xs font-black text-white">案例 {index + 1}</span><h3 className="mt-4 text-xl font-black tracking-tight text-slate-950">{guide.name}</h3><p className="mt-3 text-sm leading-6 text-slate-600">围绕真实选型问题整理对比维度、适用场景和入口索引。</p><span className="mt-5 inline-flex font-bold text-slate-950 group-hover:underline">查看案例 →</span></a>)}
+          {site.guides.map((guide, index) => <a key={guide.url} className="group block rounded-xl border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-1 hover:border-slate-300 hover:shadow-xl" href={guide.url}><span className="rounded-full bg-slate-950 px-2.5 py-1 text-xs font-black text-white">案例 {index + 1}</span><h3 className="mt-4 text-xl font-black tracking-tight text-slate-950">{guide.name}</h3><p className="mt-3 text-sm leading-6 text-slate-600">围绕真实选型问题整理对比维度、适用场景和入口索引。</p><span className="mt-5 flex w-full items-center justify-center rounded-xl border border-slate-200 bg-slate-50 px-5 py-3 font-bold text-slate-950 transition group-hover:border-slate-300 group-hover:bg-white">查看案例 →</span></a>)}
         </div>
       </section>
 
@@ -58,12 +58,12 @@ export default function Home() {
         </div>
         <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
           {items.map((item) => (
-            <article key={item.name} className="group rounded-xl border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-1 hover:border-slate-300 hover:shadow-xl">
-              <div className="flex items-start justify-between gap-3"><h3 className="text-xl font-black tracking-tight">{item.name}</h3><span className="rounded-full bg-slate-100 px-2.5 py-1 text-xs font-semibold text-slate-500">{item.type}</span></div>
-              <div className="mt-4 text-3xl font-black">{item.price}</div>
+            <a key={item.name} className="group block rounded-xl border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-1 hover:border-slate-300 hover:shadow-xl" href={item.url}>
+              <div className="flex items-start justify-between gap-3"><h3 className="text-xl font-black tracking-tight text-slate-950">{item.name}</h3><span className="rounded-full bg-slate-100 px-2.5 py-1 text-xs font-semibold text-slate-500">{item.type}</span></div>
+              <div className="mt-4 text-3xl font-black text-slate-950">{item.price}</div>
               <p className="mt-3 min-h-20 text-sm leading-6 text-slate-600">{item.summary}</p>
-              <a className="mt-5 inline-flex rounded-xl bg-slate-950 px-4 py-2.5 text-sm font-bold text-white transition group-hover:bg-slate-800" href={item.url}>阅读文章 →</a>
-            </article>
+              <span className="mt-5 flex w-full items-center justify-center rounded-xl bg-slate-950 px-5 py-3 text-sm font-bold text-white transition group-hover:bg-slate-800">阅读文章 →</span>
+            </a>
           ))}
         </div>
       </section>
