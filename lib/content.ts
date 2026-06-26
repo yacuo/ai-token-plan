@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 
-export type TocItem = { id: string; text: string; level: 1 | 2 };
+export type TocItem = { id: string; text: string; level: 1 | 2 | 3 };
 export type Article = {
   slug: string[];
   href: string;
@@ -84,7 +84,7 @@ function markdownToHtml(markdown: string) {
       index += 2;
       while (index < lines.length && lines[index].trim().includes("|")) {
         const cells = parseTableRow(lines[index]);
-        html.push("<tr>" + cells.map((cell) => `<td>${cell}</td>`).join("") + "</tr>");
+        html.push("<tr>" + cells.map((cell, cellIndex) => `<td data-label="${headers[cellIndex] || ""}">${cell}</td>`).join("") + "</tr>");
         index += 1;
       }
       html.push("</tbody></table></div>");
@@ -140,10 +140,10 @@ function markdownToHtml(markdown: string) {
 
 function getToc(markdown: string): TocItem[] {
   return markdown.split("\n").flatMap((line) => {
-    const match = /^(##)\s+(.+)$/.exec(line.trim());
+    const match = /^(#{2,3})\s+(.+)$/.exec(line.trim());
     if (!match) return [];
     const text = match[2].replace(/\[([^\]]+)\]\(([^)]+)\)/g, "$1");
-    return [{ id: slugify(text), text, level: 2 }];
+    return [{ id: slugify(text), text, level: match[1].length as 2 | 3 }];
   });
 }
 

@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-type TocItem = { id: string; text: string; level: 1 | 2 };
+type TocItem = { id: string; text: string; level: 1 | 2 | 3 };
 
 export default function TocNav({ items }: { items: TocItem[] }) {
   const [activeId, setActiveId] = useState(items[0]?.id ?? "");
@@ -35,7 +35,7 @@ export default function TocNav({ items }: { items: TocItem[] }) {
         return (
           <a
             key={item.id}
-            className={active ? "-ml-[13px] border-l-2 border-blue-600 px-3 py-2 font-black text-blue-700" : "-ml-[13px] border-l-2 border-transparent px-3 py-2 font-semibold text-slate-500 hover:border-slate-300 hover:text-slate-900"}
+            className={`${active ? "border-slate-950 font-black text-slate-950" : "border-transparent font-semibold text-slate-500 hover:border-slate-300 hover:text-slate-900"} -ml-[13px] border-l-2 px-3 py-2 ${item.level === 3 ? "pl-6 text-xs" : ""}`}
             href={`#${item.id}`}
             onClick={() => setActiveId(item.id)}
           >

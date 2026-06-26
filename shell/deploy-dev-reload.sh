@@ -8,6 +8,7 @@ cd "$project_dir"
 command="${1:-preview}"
 port="${PORT:-4171}"
 site_url="${SITE_URL:-http://localhost:${port}/}"
+lan_ip="${LAN_IP:-$(ipconfig getifaddr en0 2>/dev/null || ipconfig getifaddr en1 2>/dev/null || echo "")}"
 run_dir="$project_dir/.run"
 pid_file="$run_dir/site-${command}.pid"
 log_file="$run_dir/site-${command}.log"
@@ -57,6 +58,9 @@ start_background() {
   echo ""
   echo "[信息] ========== 后台服务已启动 =========="
   echo "本机：      http://localhost:${port}"
+  if [[ -n "$lan_ip" ]]; then
+    echo "局域网：    http://${lan_ip}:${port}"
+  fi
   echo "pid：       ${pid}"
   echo "日志：      ${log_file}"
   echo "停止：      kill \$(cat \"${pid_file}\")"
@@ -73,11 +77,11 @@ case "$command" in
   preview)
     npm install
     SITE_URL="$site_url" npm run build
-    start_background "cd '$project_dir' && SITE_URL='$site_url' npm run preview -- -p '$port'"
+    start_background "cd '$project_dir' && SITE_URL='$site_url' npm run preview -- -H 0.0.0.0 -p '$port'"
     ;;
   dev)
     npm install
-    start_background "cd '$project_dir' && SITE_URL='$site_url' npx next dev -p '$port'"
+    start_background "cd '$project_dir' && SITE_URL='$site_url' npx next dev -H 0.0.0.0 -p '$port'"
     ;;
   deploy)
     npm install

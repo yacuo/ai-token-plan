@@ -2,7 +2,7 @@ import site from "../site.config.json";
 
 export default function SiteFooter() {
   return (
-    <footer className="mx-auto max-w-7xl px-4 pb-8 pt-4 sm:px-6 lg:px-8">
+    <footer className="mx-auto max-w-7xl 2xl:max-w-[1440px] min-[1800px]:max-w-[1560px] min-[1920px]:max-w-[1680px] px-4 pb-8 pt-4 sm:px-6 lg:px-8">
       <div className="rounded-xl border border-slate-200 bg-white/85 p-6 text-sm text-slate-600 shadow-sm backdrop-blur sm:p-8">
         <div className="grid gap-6 md:grid-cols-[1.4fr_1fr_1fr]">
           <div>

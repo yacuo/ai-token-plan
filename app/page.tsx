@@ -12,9 +12,9 @@ function GithubIcon() {
 export default function Home() {
   const items = site.sections[0]?.items ?? [];
   return (
-    <main className="min-h-screen overflow-hidden bg-[radial-gradient(circle_at_top_left,#e0f2fe,transparent_34%),linear-gradient(180deg,#f8fafc_0%,#fff_42%,#f8fafc_100%)] text-slate-950">
-      <header className="mx-auto max-w-7xl px-4 py-5 sm:px-6 lg:px-8">
-        <nav className="flex flex-col gap-3 rounded-2xl border border-white/70 bg-white/80 px-4 py-3 shadow-sm backdrop-blur md:flex-row md:items-center md:justify-between">
+    <main className="min-h-screen overflow-x-hidden bg-[radial-gradient(circle_at_top_left,#e0f2fe,transparent_34%),linear-gradient(180deg,#f8fafc_0%,#fff_42%,#f8fafc_100%)] pt-28 text-slate-950 md:pt-20">
+      <header className="fixed left-0 right-0 top-0 z-50 bg-white shadow-lg shadow-slate-200/70">
+        <nav className="mx-auto flex max-w-7xl 2xl:max-w-[1440px] min-[1800px]:max-w-[1560px] min-[1920px]:max-w-[1680px] flex-col gap-3 border-b border-slate-200 bg-white px-4 py-3 sm:px-6 md:flex-row md:items-center md:justify-between lg:px-8">
           <a href="/" className="flex items-center gap-3 font-black tracking-tight">
             <span className="grid h-9 w-9 place-items-center rounded-xl bg-slate-950 text-sm text-white">TP</span>
             <span>{site.brand}</span>
@@ -28,7 +28,7 @@ export default function Home() {
         </nav>
       </header>
 
-      <section className="mx-auto max-w-7xl px-4 pb-12 pt-8 sm:px-6 lg:px-8 lg:pb-16 lg:pt-12">
+      <section className="mx-auto max-w-7xl 2xl:max-w-[1440px] min-[1800px]:max-w-[1560px] min-[1920px]:max-w-[1680px] px-4 pb-12 pt-8 sm:px-6 lg:px-8 lg:pb-16 lg:pt-12">
         <div className="rounded-xl border border-white/70 bg-white/75 p-6 shadow-xl shadow-slate-200/70 backdrop-blur sm:p-10 lg:p-12">
           <div className="mb-5 inline-flex rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-sm font-semibold text-slate-600">本项目由：压错技术团队提供，静态博客 · Markdown 驱动</div>
           <h1 className="w-full text-3xl font-black leading-tight tracking-[-0.04em] sm:text-4xl lg:text-5xl">{site.title}</h1>
@@ -43,7 +43,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="guides" className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+      <section id="guides" className="mx-auto max-w-7xl 2xl:max-w-[1440px] min-[1800px]:max-w-[1560px] min-[1920px]:max-w-[1680px] px-4 py-10 sm:px-6 lg:px-8">
         <div className="mb-6 flex flex-col justify-between gap-3 md:flex-row md:items-end">
           <div><h2 className="text-3xl font-black tracking-tight sm:text-4xl">对比案例</h2><p className="mt-2 max-w-2xl text-slate-600">先看高意图搜索场景：价格、额度、免费额度、官网入口和申请入口怎么选。</p></div>
         </div>
@@ -52,7 +52,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="plans" className="mx-auto max-w-7xl px-4 pb-16 pt-6 sm:px-6 lg:px-8">
+      <section id="plans" className="mx-auto max-w-7xl 2xl:max-w-[1440px] min-[1800px]:max-w-[1560px] min-[1920px]:max-w-[1680px] px-4 pb-16 pt-6 sm:px-6 lg:px-8">
         <div className="mb-6 flex flex-col justify-between gap-3 md:flex-row md:items-end">
           <div><h2 className="text-3xl font-black tracking-tight sm:text-4xl">快速对比</h2><p className="mt-2 max-w-2xl text-slate-600">点击卡片进入由仓库 Markdown 生成的站内文章页。</p></div>
         </div>

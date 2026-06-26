@@ -41,13 +41,14 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 
   const prev = index > 0 ? articles[index - 1] : undefined;
   const next = index < articles.length - 1 ? articles[index + 1] : undefined;
+  const isGuide = article.sourcePath.startsWith("guides/");
   const categoryLabel = article.sourcePath.startsWith("vendors/") ? "厂商文章" : "专题文章";
   const editUrl = `${site.githubUrl}/edit/main/${article.sourcePath}`;
 
   return (
-    <main className="min-h-screen bg-[radial-gradient(circle_at_top_left,#dbeafe,transparent_30%),linear-gradient(180deg,#f8fafc_0%,#fff_42%,#f8fafc_100%)] text-slate-950">
-      <header className="sticky top-0 z-50 mx-auto max-w-7xl px-4 py-3 sm:px-6 lg:px-8">
-        <nav className="flex flex-col gap-3 rounded-2xl border border-white/80 bg-white/95 px-4 py-3 shadow-lg shadow-slate-200/70 backdrop-blur md:flex-row md:items-center md:justify-between">
+    <main className="min-h-screen overflow-x-hidden bg-[radial-gradient(circle_at_top_left,#dbeafe,transparent_30%),linear-gradient(180deg,#f8fafc_0%,#fff_42%,#f8fafc_100%)] pt-28 text-slate-950 md:pt-20">
+      <header className="fixed left-0 right-0 top-0 z-50 bg-white shadow-lg shadow-slate-200/70">
+        <nav className="mx-auto flex max-w-7xl 2xl:max-w-[1440px] min-[1800px]:max-w-[1560px] min-[1920px]:max-w-[1680px] flex-col gap-3 border-b border-slate-200 bg-white px-4 py-3 sm:px-6 md:flex-row md:items-center md:justify-between lg:px-8">
           <Link href="/" className="flex items-center gap-3 font-black tracking-tight"><span className="grid h-9 w-9 place-items-center rounded-xl bg-slate-950 text-sm text-white">TP</span>{site.brand}</Link>
           <div className="flex flex-wrap items-center gap-2 text-sm font-semibold text-slate-600">
             <Link className="rounded-full px-3 py-2 hover:bg-slate-100" href="/">首页</Link>
@@ -57,8 +58,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         </nav>
       </header>
 
-      <div className="mx-auto grid max-w-7xl gap-6 px-4 pb-16 pt-6 sm:px-6 lg:grid-cols-[minmax(0,1fr)_320px] lg:px-8">
-        <article className="rounded-xl border border-slate-200 bg-white p-5 shadow-xl shadow-slate-200/70 sm:p-8 lg:p-10">
+      <div className={`mx-auto grid w-full max-w-7xl 2xl:max-w-[1440px] min-[1800px]:max-w-[1560px] min-[1920px]:max-w-[1680px] min-w-0 gap-6 px-3 pb-16 pt-5 sm:px-6 lg:px-8 ${isGuide ? "" : "lg:grid-cols-[minmax(0,1fr)_320px]"}`}>
+        <article className="min-w-0 overflow-hidden rounded-xl border border-slate-200 bg-white p-4 shadow-xl shadow-slate-200/70 sm:p-8 lg:p-10">
           <Link className="inline-flex rounded-full border border-slate-200 bg-slate-50 px-3 py-1.5 text-sm font-bold text-slate-600 hover:bg-white" href="/">← 返回首页</Link>
           <div className="mt-6 flex flex-wrap gap-2">
             {article.tags.map((tag) => <span key={tag} className="rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs font-semibold text-slate-600">{tag}</span>)}
@@ -73,21 +74,23 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             {next ? <Link className="rounded-2xl border border-slate-200 bg-slate-50 p-4 transition hover:bg-white hover:shadow-sm sm:text-right" href={next.href}><span className="block text-sm font-semibold text-slate-500">下一篇</span><strong>{next.title}</strong></Link> : <div />}
           </nav>
         </article>
-        <aside className="space-y-4 lg:sticky lg:top-6 lg:self-start">
-          <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-            <div className="text-sm font-bold text-slate-500">文章来源</div>
-            <div className="mt-3 grid gap-2">
-              <a className="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-slate-50 px-3 py-2 text-sm font-bold" href={site.githubUrl}><GithubIcon /> GitHub 仓库</a>
-              <a className="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm font-bold text-slate-900" href={editUrl}><GithubIcon /> 编辑此页</a>
+        {!isGuide && (
+          <aside className="space-y-4 lg:sticky lg:top-6 lg:self-start">
+            <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+              <div className="text-sm font-bold text-slate-500">文章来源</div>
+              <div className="mt-3 grid gap-2">
+                <a className="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-slate-50 px-3 py-2 text-sm font-bold" href={site.githubUrl}><GithubIcon /> GitHub 仓库</a>
+                <a className="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-3 py-2 text-sm font-bold text-slate-900" href={editUrl}><GithubIcon /> 编辑此页</a>
+              </div>
+              <div className="mt-5 text-sm font-bold text-slate-500">当前分类</div>
+              <div className="mt-2 rounded-xl bg-slate-100 px-3 py-2 text-sm font-bold text-slate-700">{categoryLabel}</div>
             </div>
-            <div className="mt-5 text-sm font-bold text-slate-500">当前分类</div>
-            <div className="mt-2 rounded-xl bg-slate-100 px-3 py-2 text-sm font-bold text-slate-700">{categoryLabel}</div>
-          </div>
-          <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-            <div className="text-sm font-black text-slate-950">文章目录</div>
-            <TocNav items={article.toc} />
-          </div>
-        </aside>
+            <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+              <div className="text-sm font-black text-slate-950">文章目录</div>
+              <TocNav items={article.toc} />
+            </div>
+          </aside>
+        )}
       </div>
       <SiteFooter />
     </main>
