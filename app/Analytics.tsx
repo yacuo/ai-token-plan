@@ -1,5 +1,6 @@
 "use client";
 
+import Script from "next/script";
 import { useEffect } from "react";
 
 export default function Analytics() {
@@ -16,18 +17,25 @@ export default function Analytics() {
     gtag("js", new Date());
     gtag("config", "G-GCVD6ZK0T9");
 
-    const baidu = document.createElement("script");
-    baidu.async = true;
-    baidu.src = "https://hm.baidu.com/hm.js?8c5b252b5fcf95dc88ab585cb81cd5e0";
-    document.head.appendChild(baidu);
-
     const clarity = document.createElement("script");
     clarity.async = true;
     clarity.src = "https://www.clarity.ms/tag/xa1tiyku2l";
     document.head.appendChild(clarity);
   }, []);
 
-  return null;
+  return (
+    <Script id="baidu-analytics" strategy="afterInteractive">
+      {`
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?8c5b252b5fcf95dc88ab585cb81cd5e0";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+      `}
+    </Script>
+  );
 }
 
 declare global {
