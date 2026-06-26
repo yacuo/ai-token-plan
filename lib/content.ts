@@ -106,6 +106,14 @@ function markdownToHtml(markdown: string) {
       continue;
     }
 
+    if (trimmed.startsWith("### ")) {
+      if (listOpen) { html.push("</ul>"); listOpen = false; }
+      const text = trimmed.slice(4);
+      html.push(`<h3 id="${slugify(text)}">${inlineMarkdown(text)}</h3>`);
+      index += 1;
+      continue;
+    }
+
     if (trimmed.startsWith("## ")) {
       if (listOpen) { html.push("</ul>"); listOpen = false; }
       const text = trimmed.slice(3);
